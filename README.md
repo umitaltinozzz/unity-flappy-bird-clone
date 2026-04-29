@@ -1,36 +1,37 @@
 # Unity Flappy Bird Clone
 
-![Status](https://img.shields.io/badge/status-portfolio%20archive-blue)
-![Project](https://img.shields.io/badge/type-coursework%20project-informational)
-![Stack](https://img.shields.io/badge/stack-Unity%20%7C%20C#%20%7C%202D Game-333333)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Game](https://img.shields.io/badge/2D_Game-FF6F00?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Unity 2D game prototype inspired by Flappy Bird, built to practice game loops, collision, scoring, and simple physics-based controls.
+A 2D Unity game prototype inspired by Flappy Bird. The project was built to practice core game development concepts such as player control, obstacle movement, collision handling, prefabs, scenes, and simple score-oriented gameplay.
 
-## Project Status
+## What It Does
 
-Completed Unity coursework/game prototype archive.
-
-## Features
-
-- Player movement and obstacle interaction
-- Scene-based Unity project structure
-- C# gameplay scripts
-- Prototype game loop and scoring behavior
+- Implements a simple bird controller
+- Uses pipe/obstacle prefabs and scene-based gameplay
+- Handles gameplay state through C# scripts
+- Includes sprites, prefabs, project settings, and Unity package metadata
 
 ## Tech Stack
 
-Unity, C#, 2D Game
+- Unity
+- C#
+- 2D sprites
+- Unity scenes and prefabs
 
-## Local Setup
+## Running Locally
 
-Open the folder with Unity Hub using the Unity version listed in `ProjectSettings/ProjectVersion.txt`.
+1. Open the repository folder with Unity Hub.
+2. Use the Unity version listed in `ProjectSettings/ProjectVersion.txt`.
+3. Open the sample scene.
+4. Press Play in the Unity Editor.
 
 ## Repository Notes
 
-- Unity Library, build output, logs, and user settings are excluded.
-- Only source assets, scripts, packages, and project settings are committed.
+Only source assets and project configuration are committed. Unity `Library`, build output, logs, temporary files, and user-specific settings are excluded.
 
 ## License
 
-Released under the MIT License.
+MIT License.
